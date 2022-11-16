@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin:0%;
+    padding: 0%;
+}
+nav{
+    display:flex ;
+    flex-direction: row;
+    background-color:#F5F5F6;
+    height: 70px;
+    width: 100%;
+    border-radius: 0px;
+
+}
+.nav-items>a{
+    width: 100px;
+    margin-top:30px;
+    margin-right: 30px;
+    margin-left: 5px;
+    text-align: center;
+    font-family: Roboto;
+    
+}
+.nav-image{
+ height: 30px;
+width: 120px;
+padding-right: 80px;
+padding-left:70px;
+margin-left: 122px;
+left: 100px;
+top: 15px;
+background-color: #f1f1f1;
+width: 100px;
+margin: 30px;
+text-align: left;
+}
+.nav-items-1{
+    
+height: 19px;
+width: 44px;
+left: 253px;
+top: 17px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #000000;
+
+}
+.nav-items-2{
+height: 19px;
+width: 50px;
+left: 310px;
+top: 17px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #959BA4;
+
+
+
+}
+.nav-items-3{
+height: 19px;
+ width: 94px;
+ left: 381px;
+ top: 17px;  
+ font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #959BA4;
+}
+.nav-items-4{
+height: 19px;
+width: 94px;
+left: 486px;
+top: 17px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #959BA4;
+}
+.nav-items-5{
+height: 19px;
+width: 68px;
+left: 596px;
+top: 17px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #959BA4;
+
+}
+.nav-items-6{
+height: 19px;
+width: 101px;
+left: 671px;
+top: 17px;
+height: 19px;
+width: 101px;
+left: 671px;
+top: 17px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #959BA4;
+
+}
+
+.nav-items-7{
+ height: 19px;
+width: 101px;
+left: 782px;
+top: 17px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #959BA4;
+
+}
+.nav-items-8{
+height: 70px;
+width: 58px;
+left: 992px;
+top: 19px;
+padding-bottom: 20px;
+ font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.06em;
+text-align: center;
+background-color: white;
+border-radius:10%;
+}
+h1{
+margin-top:70px;
+text-align: center;
+color:black;
+font-family: Roboto;
+font-size: 50px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+}
+.valuta-block-in{
+display: flex;
+justify-content: left;
+flex-direction: column;
+padding-left: 450px;
+}
+
+.valuta-block-out{
+display: flex;
+justify-content: left;
+flex-direction: column;
+ padding-left: 100px;
+ color:black;
+}
+.valuta-header-in{
+    color: #9F9F9F;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Roboto;
+    padding-bottom: 15px;
+    padding-top: 45px;
+    margin-left:260px;
+    
+}
+input{
+width: 400px;
+height: 100px;
+border:0px solid #E5E5E5;
+font-family: Roboto;
+font-weight: 1000;
+font-size: 36px;
+border-radius:5px;
+}
+.active{
+    background-color:#833AE0;
+    
+}
+.valuta-header-out{
+    color: #9F9F9F;
+    padding-left: 215px;
+    font-family: Roboto;
+    padding-bottom: 15px;
+    padding-top: 45px;
+    
+    
+}
+.valuta-categories{ 
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px 3px 3px 3px;
+}
+
+
+.row-header{
+    display: flex;
+    flex-direction: row;
+}
+.valuta-categories-in{
+    display: flex;
+    flex-direction: row;     
+}
+.valuta-in{
+    padding-top:150px;
+    text-align: left;
+    border-radius:5px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Roboto;
+    color:#000000;
+}
+.valuta-out{
+    margin-top:150px;
+    text-align: left;
+    border-radius:5px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Roboto;
+    color:#000000;
+}
+.container-in{
+    margin-top:2px;
+    border:1px solid  #E5E5E5;
+    width: 400px;
+    height: 200px;
+}
+.container-out{
+    margin-top:2px;
+    border:1px solid  #E5E5E5;
+    width: 400px;
+    height: 200px;
+}
