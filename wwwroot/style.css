@@ -205,6 +205,16 @@ font-family: Roboto;
 font-weight: 1000;
 font-size: 36px;
 border-radius:5px;
+outline:none;
+}
+input::-webkit-outer-spin-button,
+
+input::-webkit-inner-spin-button {
+
+  -webkit-appearance: none;
+
+margin:0;
+
 }
 .active{
     background-color:#833AE0;
